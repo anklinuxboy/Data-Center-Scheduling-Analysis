@@ -1,7 +1,8 @@
 ## EC700 Final Project
 ### Job Throughput Analysis of Data Center Scheduling Algorithms
-This project was undertaken as the final project for EC700 Advanced Computing Systems and Architecture at Boston University College of Engineering taught by 
-[Dr. Ayse Coskun](http://www.bu.edu/eng/profile/ayse-coskun)
+This project was undertaken as the final project for EC700 Advanced Computing Systems and Architecture at Boston University College of Engineering taught by [Dr. Ayse Coskun](http://www.bu.edu/eng/profile/ayse-coskun)
+
+[SLURM](http://slurm.schedmd.com) ( Simple Linux Utility for Resource Management) is a workload manager being used by 60% of the TOP500 supercomputers. [SLURM Wiki](https://en.wikipedia.org/wiki/Slurm_Workload_Manager)
 
 #### Team SLURM
 **Gerardo Ravago** - gcravago@bu.edu
