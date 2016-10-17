@@ -2,10 +2,11 @@
 ### Job Throughput Analysis of Data Center Scheduling Algorithms
 This project was undertaken as the final project for EC700 Advanced Computing Systems and Architecture at Boston University College of Engineering taught by 
 [Dr. Ayse Coskun](http://www.bu.edu/eng/profile/ayse-coskun)
+
 #### Team SLURM
----------------
 **Gerardo Ravago** - gcravago@bu.edu
 **Ankit Sharma** - ankitsh@bu.edu
+---------------
 
 #### Manifest:
 #### /README
