@@ -1,12 +1,17 @@
-EC700 Final Project
-Job Throughput Analysis of Data Center Scheduling Algorithms
-Team SLURM
-Gerardo Ravago - gcravago@bu.edu
-Ankit Sharma - ankitsh@bu.edu
+## EC700 Final Project
+### Job Throughput Analysis of Data Center Scheduling Algorithms
+This project was undertaken as the final project for EC700 Advanced Computing Systems and Architecture at Boston University College of Engineering taught by 
+[Dr. Ayse Coskun](http://www.bu.edu/eng/profile/ayse-coskun)
+#### Team SLURM
+---------------
+**Gerardo Ravago** - gcravago@bu.edu
+**Ankit Sharma** - ankitsh@bu.edu
 
-
-Manifest:
-/README - This file
+#### Manifest:
+--------------
+#### /README
+--------------
+```
 /slurm_setup/update_daemons.sh - Deploys a slurm.conf file and restarts all SLURM daemons
 /slurm_setup/transfer.sh - SCP's a file to all the SLURM nodes
 /slurm_setup/slurm.conf - Example slurm.conf file for our cluster
@@ -16,8 +21,10 @@ Manifest:
 /benchmarks/parsec_workload.sh - Schedules our PARSEC based workload
 /benchmarks/parsec.sh - Bash wrapper script to schedule to run a specified PARSEC benchmark
 /benchmarks/esp_workload.py - Our scaled down version of the Effective System Performance (ESP) benchmark
-
-Setup Instructions:
+```
+#### Setup Instructions:
+------------------------
+```
 1. Setup a cluster of 8 Ubuntu-14.04LTS-amd64 instances with the m1.2core flavor on Massachusettes Open Cloud.
   - Be sure to setup and install your ssh keypair as well.
   - Name one of the instances slurm-primary and the others node00-node06
@@ -55,10 +62,13 @@ Setup Instructions:
 9. Test SLURM
   - sinfo should indicate that all nodes are connected and idle
   - srun echo "hello" should schedule echo on a node and redirect it to your stdout
+```
 
-
-Running the Benchmarks:
+#### Running the Benchmarks:
+-----------------------------
+```
 1. Edit your slurm.conf for the setting that you would like to evaluate.
 2. Deploy your configuration using the update_daemons.sh file
 3. Run the respective workload script inside the benchmarks folder.
 4. Results will print to the stdout.
+```
