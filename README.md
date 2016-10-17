@@ -8,7 +8,6 @@ This project was undertaken as the final project for EC700 Advanced Computing Sy
 **Ankit Sharma** - ankitsh@bu.edu
 
 #### Manifest:
---------------
 #### /README
 --------------
 ```
@@ -72,3 +71,4 @@ This project was undertaken as the final project for EC700 Advanced Computing Sy
 3. Run the respective workload script inside the benchmarks folder.
 4. Results will print to the stdout.
 ```
+The PDF included is an IEEE format research paper detailing our Analysis.
