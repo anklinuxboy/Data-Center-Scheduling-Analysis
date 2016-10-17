@@ -6,7 +6,6 @@ This project was undertaken as the final project for EC700 Advanced Computing Sy
 #### Team SLURM
 **Gerardo Ravago** - gcravago@bu.edu
 **Ankit Sharma** - ankitsh@bu.edu
----------------
 
 #### Manifest:
 #### /README
